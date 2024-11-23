@@ -1,4 +1,4 @@
-const pool = require("../db"); 
+const pool = require("../config/db"); 
 
 // ADD A NEW SCHOOL
 const addSchool = async (req, res) => {
