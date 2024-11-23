@@ -29,7 +29,7 @@ const listSchools = async (req, res) => {
       return res.status(400).send({ error: "Latitude and longitude are required!" });
     }
   
-    const haversineDistance = (lat1, lon1, lat2, lon2) => {
+      const haversineDistance = (lat1, lon1, lat2, lon2) => {
       const toRadians = (degrees) => (degrees * Math.PI) / 180;
   
       const R = 6371; 
